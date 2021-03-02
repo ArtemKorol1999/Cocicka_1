@@ -7,10 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="coc">#64BD25</color>
-    <color name="icka">#32B85F</color>
-    <color name="fon">#37CA16</color>
-    <color name="a">#30DC83</color>
-    <color name="b">#009999</color>
+    <color name="coc">#0195ae</color>
+    <color name="icka">#01556a</color>
+    <color name="fon">#b1daea</color>
+    <color name="a">#b1daea</color>
+    <color name="b">#85c8de</color>
 </resources>
 
