@@ -9,8 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="coc">#0195ae</color>
     <color name="icka">#01556a</color>
-    <color name="fon">#b1daea</color>
-    <color name="a">#b1daea</color>
+    <color name="a">#85c8de</color>
     <color name="b">#85c8de</color>
+    <color name="string">#0195ae</color>
 </resources>
 

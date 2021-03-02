@@ -2,12 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cRazdelit"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:orientation="horizontal"
@@ -22,30 +24,36 @@
             app:layout_constraintBottom_toBottomOf="parent">
 
             <TextView
+                android:id="@+id/cClear"
                 style="@style/znaki"
                 android:fontFamily="@font/boogaloo"
                 android:text="ac" />
 
             <TextView
+                android:id="@+id/cSeven"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="7" />
 
             <TextView
+                android:id="@+id/cFour"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="4" />
 
             <TextView
+                android:id="@+id/cOne"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="1" />
 
             <TextView
+                android:id="@+id/cDot"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="." />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -55,30 +63,36 @@
             app:layout_constraintBottom_toBottomOf="parent">
 
             <TextView
+                android:id="@+id/cOpen"
                 style="@style/znaki"
                 android:fontFamily="@font/boogaloo"
                 android:text="(" />
 
             <TextView
+                android:id="@+id/cEight"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="8" />
 
             <TextView
+                android:id="@+id/cFive"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="5" />
 
             <TextView
+                android:id="@+id/cTwo"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="2" />
 
             <TextView
+                android:id="@+id/cZero"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="0" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -88,26 +102,31 @@
             app:layout_constraintBottom_toBottomOf="parent">
 
             <TextView
+                android:id="@+id/cClose"
                 style="@style/znaki"
                 android:fontFamily="@font/boogaloo"
                 android:text=")" />
 
             <TextView
+                android:id="@+id/cNine"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="9" />
 
             <TextView
+                android:id="@+id/cSix"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="6" />
 
             <TextView
+                android:id="@+id/cThree"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="3" />
 
             <TextView
+                android:id="@+id/cBS"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
                 android:text="c" />
@@ -122,16 +141,19 @@
             app:layout_constraintBottom_toBottomOf="parent">
 
             <TextView
+                android:id="@+id/cPlus"
                 style="@style/znaki"
                 android:fontFamily="@font/boogaloo"
                 android:text="+" />
 
             <TextView
+                android:id="@+id/cMinus"
                 style="@style/znaki"
                 android:fontFamily="@font/boogaloo"
                 android:text="-" />
 
             <TextView
+                android:id="@+id/cUmnozhit"
                 style="@style/znaki"
                 android:fontFamily="@font/boogaloo"
                 android:text="x" />
@@ -142,12 +164,32 @@
                 android:text=":" />
 
             <TextView
+                android:id="@+id/cRavno"
                 style="@style/znaki"
                 android:fontFamily="@font/boogaloo"
                 android:text="=" />
         </LinearLayout>
 
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="60dp">
+        <TextView
+            android:id="@+id/cReshenie"
+            style="@style/string"
+            android:fontFamily="@font/boogaloo"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/cResultat"
+            style="@style/string"
+            android:fontFamily="@font/boogaloo"
+            android:text="" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
