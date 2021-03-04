@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity() {
         cZero.setOnClickListener{ One_Result ("0",true)}
         cDot.setOnClickListener{ One_Result (".",true)}
 
-        cPlus.setOnClickListener{ One_Result (".",false)}
+        cPlus.setOnClickListener{ One_Result ("+",false)}
         cMinus.setOnClickListener{ One_Result ("-",false)}
-        cUmnozhit.setOnClickListener{ One_Result ("+",false)}
+        cUmnozhit.setOnClickListener{ One_Result ("*",false)}
         cRazdelit.setOnClickListener{ One_Result ("/",false)}
         cOpen.setOnClickListener{ One_Result ("(",false)}
         cClose.setOnClickListener{ One_Result (")",false)}
@@ -63,6 +63,11 @@ class MainActivity : AppCompatActivity() {
 
 
     fun One_Result (string: String, Clear: Boolean) {
+        if(cResultat.text.isNotEmpty()){
+            cReshenie.text = ""
+
+        }
+
 
 
     if(Clear){

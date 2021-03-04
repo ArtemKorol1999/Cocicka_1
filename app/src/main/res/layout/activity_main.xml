@@ -44,11 +44,12 @@
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent">
 
-            <TextView
+            <ImageView
                 android:id="@+id/cClear"
                 style="@style/znaki"
                 android:fontFamily="@font/boogaloo"
-                android:text="ac" />
+                android:src="@mipmap/c_ac"
+                android:scaleType="center"/>
 
             <TextView
                 android:id="@+id/cSeven"
@@ -146,11 +147,12 @@
                 android:fontFamily="@font/boogaloo"
                 android:text="3" />
 
-            <TextView
+            <ImageView
                 android:id="@+id/cBS"
                 style="@style/cifri"
                 android:fontFamily="@font/boogaloo"
-                android:text="c" />
+              android:src="@mipmap/c_bsa"
+                android:scaleType="center"/>
         </LinearLayout>
 
         <LinearLayout
