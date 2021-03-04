@@ -45,10 +45,10 @@
         <item name="android:layout_weight">1</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">230dp</item>
-        <item name="android:textColor">@color/b</item>
-        <item name="android:textSize">200sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_margin">0.75dp</item>
+        <item name="android:textColor">@color/coc</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">end</item>
+        <item name="android:layout_margin">5dp</item>
     </style>
 
 </resources>

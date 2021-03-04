@@ -9,6 +9,27 @@
 
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="60dp">
+
+        <TextView
+            android:id="@+id/cReshenie"
+            style="@style/string"
+            android:fontFamily="@font/boogaloo"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/cResultat"
+            style="@style/string"
+            android:fontFamily="@font/boogaloo"
+            android:text="" />
+    </LinearLayout>
+
+
+    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="500dp"
@@ -171,25 +192,6 @@
         </LinearLayout>
 
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="60dp">
-        <TextView
-            android:id="@+id/cReshenie"
-            style="@style/string"
-            android:fontFamily="@font/boogaloo"
-            android:text="1" />
-
-        <TextView
-            android:id="@+id/cResultat"
-            style="@style/string"
-            android:fontFamily="@font/boogaloo"
-            android:text="" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
