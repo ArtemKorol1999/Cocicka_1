@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import kotlinx.android.synthetic.main.activity_main.*
+
 import net.objecthunter.exp4j.ExpressionBuilder
 
 class MainActivity : AppCompatActivity() {
@@ -42,46 +43,24 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-    }
-//    cRavno.setOnClickListener{
-//
-////        try{
-//            val expression = ExpressionBuilder(cReshenie.text.toString()).build()
-//            val result = expression.evaluate()
-//            val longResult = result.toLong()
-//            if(result == longResult.toDouble())
-//                cResultat.text = longResult.toString()
-//            else
-//                cResultat.text = result.toString()
-//
-//        }
-//        catch (e:Exception){
-//            Log.d("Exception"," message " +e.message)
-//        }
-//    }
+        cRavno.setOnClickListener{
 
+            try{
+                val reshenie = ExpressionBuilder(cReshenie.text.toString()).build()
+                val resultat = reshenie.evaluate()
+                val longResult = resultat.toLong()
+                if(resultat == longResult.toDouble())
+                    cResultat.text = longResult.toString()
+                else
+                    cResultat.text = resultat.toString()
 
-    cRavno.setOnClickListener{
-        try {
-            val Expression = ExpressionBuilder(cReshenie.text.toString()).build()
-            val Otvet_Gendalfa = cResultat.evaluate()
-            val Dlinniy_Otvet = Otvet_Gendalfa.toLong()
-            if(Otvet_Gendalfa == Dlinniy_Otvet.toDouble())
-                cResultat.text =  Dlinniy_Otvet.toString()
-            else
-                cResultat.text = Otvet_Gendalfa.toString()
-
-
-
+            }
+            catch (e:Exception){
+                Log.d("Exception"," message " +e.message)
+            }
         }
-        catch (e:Exception)
-        {
-            Log.d("Исключение:"," " +e.message )
-        }
-
-
-
     }
+
 
     fun One_Result (string: String, Clear: Boolean) {
 
