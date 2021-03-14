@@ -2,6 +2,9 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/boogaloo</item>
+        <item>@font/covered_by_your_grace</item>
+        <item>@font/jim_nightshade</item>
         <item>@font/new_rocker</item>
+        <item>@font/odor_mean_chey</item>
     </array>
 </resources>

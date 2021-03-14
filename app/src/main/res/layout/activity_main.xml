@@ -13,18 +13,19 @@
         android:layout_height="230dp"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="60dp">
+        tools:layout_editor_absoluteX="60dp"
+        android:background="@drawable/maxresdefault">
 
         <TextView
             android:id="@+id/cReshenie"
             style="@style/string"
-            android:fontFamily="@font/boogaloo"
+            android:fontFamily="@font/jim_nightshade"
             android:text="" />
 
         <TextView
             android:id="@+id/cResultat"
             style="@style/string"
-            android:fontFamily="@font/boogaloo"
+            android:fontFamily="@font/jim_nightshade"
             android:text="" />
     </LinearLayout>
 
@@ -44,35 +45,35 @@
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent">
 
-            <ImageView
+            <TextView
                 android:id="@+id/cClear"
                 style="@style/znaki"
-                android:fontFamily="@font/boogaloo"
-                android:src="@mipmap/c_ac"
+                android:fontFamily="@font/jim_nightshade"
+                android:text="删除"
                 android:scaleType="center"/>
 
             <TextView
                 android:id="@+id/cSeven"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="7" />
 
             <TextView
                 android:id="@+id/cFour"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="4" />
 
             <TextView
                 android:id="@+id/cOne"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="1" />
 
             <TextView
                 android:id="@+id/cDot"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="." />
         </LinearLayout>
 
@@ -87,31 +88,31 @@
             <TextView
                 android:id="@+id/cOpen"
                 style="@style/znaki"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="(" />
 
             <TextView
                 android:id="@+id/cEight"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="8" />
 
             <TextView
                 android:id="@+id/cFive"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="5" />
 
             <TextView
                 android:id="@+id/cTwo"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="2" />
 
             <TextView
                 android:id="@+id/cZero"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="0" />
         </LinearLayout>
 
@@ -126,32 +127,32 @@
             <TextView
                 android:id="@+id/cClose"
                 style="@style/znaki"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text=")" />
 
             <TextView
                 android:id="@+id/cNine"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="9" />
 
             <TextView
                 android:id="@+id/cSix"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="6" />
 
             <TextView
                 android:id="@+id/cThree"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="3" />
 
-            <ImageView
+            <TextView
                 android:id="@+id/cBS"
                 style="@style/cifri"
-                android:fontFamily="@font/boogaloo"
-              android:src="@mipmap/c_bsa"
+                android:fontFamily="@font/jim_nightshade"
+                android:text="削除"
                 android:scaleType="center"/>
         </LinearLayout>
 
@@ -166,30 +167,30 @@
             <TextView
                 android:id="@+id/cPlus"
                 style="@style/znaki"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="+" />
 
             <TextView
                 android:id="@+id/cMinus"
                 style="@style/znaki"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="-" />
 
             <TextView
                 android:id="@+id/cUmnozhit"
                 style="@style/znaki"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="x" />
 
             <TextView
                 style="@style/znaki"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text=":" />
 
             <TextView
                 android:id="@+id/cRavno"
                 style="@style/znaki"
-                android:fontFamily="@font/boogaloo"
+                android:fontFamily="@font/jim_nightshade"
                 android:text="=" />
         </LinearLayout>
 
