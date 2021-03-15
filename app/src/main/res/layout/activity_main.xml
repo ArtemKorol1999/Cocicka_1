@@ -10,10 +10,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="285dp"
         android:background="@drawable/maxresdefault"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
 
         <TextView
             android:id="@+id/cReshenie"
@@ -33,7 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,8 +50,7 @@
                 style="@style/znaki"
                 android:layout_gravity="center"
                 android:background="@color/icka"
-                android:foreground="@drawable/sharingan"
-                android:scaleY="@android" />
+                android:foreground="@drawable/sharingan" />
 
             <TextView
                 android:id="@+id/cSeven"
