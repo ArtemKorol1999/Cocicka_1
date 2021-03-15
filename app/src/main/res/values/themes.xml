@@ -11,13 +11,13 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <item name="android:background">@color/a</item>
+        <item name="android:background">@color/black</item>
         <!-- Customize your theme here. -->
     </style>
 
 
     <style name = "cifri">
-        <item name="android:background">@color/coc</item>
+        <item name="android:background">@color/black</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -41,7 +41,7 @@
 
 
     <style name = "string">
-        <item name="android:background"></item>
+
         <item name="android:layout_weight">1</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">230dp</item>

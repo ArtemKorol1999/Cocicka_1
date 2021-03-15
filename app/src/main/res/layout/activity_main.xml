@@ -11,10 +11,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="230dp"
+        android:background="@drawable/maxresdefault"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="60dp"
-        android:background="@drawable/maxresdefault">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/cReshenie"
@@ -28,7 +27,6 @@
             android:fontFamily="@font/jim_nightshade"
             android:text="" />
     </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -45,12 +43,13 @@
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent">
 
-            <TextView
+            <ImageView
                 android:id="@+id/cClear"
                 style="@style/znaki"
-                android:fontFamily="@font/jim_nightshade"
-                android:text="删除"
-                android:scaleType="center"/>
+                android:layout_gravity="center"
+                android:background="@color/icka"
+                android:foreground="@drawable/sharingan"
+                android:scaleY="@android" />
 
             <TextView
                 android:id="@+id/cSeven"
@@ -152,8 +151,8 @@
                 android:id="@+id/cBS"
                 style="@style/cifri"
                 android:fontFamily="@font/jim_nightshade"
-                android:text="削除"
-                android:scaleType="center"/>
+                android:scaleType="center"
+                android:text="削除" />
         </LinearLayout>
 
         <LinearLayout
